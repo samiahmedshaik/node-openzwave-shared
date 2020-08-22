@@ -236,8 +236,6 @@ namespace OZW {
 		(*ctrlCmdNames)["DeleteAllReturnRoutes"]	= OpenZWave::Driver::ControllerCommand_DeleteAllReturnRoutes;
 		(*ctrlCmdNames)["SendNodeInformation"]		= OpenZWave::Driver::ControllerCommand_SendNodeInformation;
 		(*ctrlCmdNames)["ReplicationSend"]			= OpenZWave::Driver::ControllerCommand_ReplicationSend;
-		(*ctrlCmdNames)["CreateButton"]				= OpenZWave::Driver::ControllerCommand_CreateButton;
-		(*ctrlCmdNames)["DeleteButton"]				= OpenZWave::Driver::ControllerCommand_DeleteButton;
 
 	}
 

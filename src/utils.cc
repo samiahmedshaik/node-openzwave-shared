@@ -499,10 +499,6 @@ const char *getControllerErrorAsStr(OpenZWave::Driver::ControllerError _err)
 	{
 	case OpenZWave::Driver::ControllerError_None:
 		return "None";
-	case OpenZWave::Driver::ControllerError_ButtonNotFound:
-		return "Button not found";
-	case OpenZWave::Driver::ControllerError_NodeNotFound:
-		return "Node not found";
 	case OpenZWave::Driver::ControllerError_NotBridge:
 		return "Not bridge";
 	case OpenZWave::Driver::ControllerError_NotSUC:

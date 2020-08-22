@@ -318,15 +318,6 @@ void handleNotification(NotifInfo *notif)
     }
     break;
   }
-  //                            ################
-  case OpenZWave::Notification::Type_SceneEvent: {
-    //                            ################
-    emitinfo[0] = Nan::New<String>("scene event").ToLocalChecked();
-    emitinfo[1] = Nan::New<Integer>(notif->nodeid);
-    emitinfo[2] = Nan::New<Integer>(notif->sceneid);
-    emit_cb->Call(Nan::New(ctx_obj),  3, emitinfo, resource);
-    break;
-  }
   //                            ##################
   case OpenZWave::Notification::Type_CreateButton: {
     //                            ##################
